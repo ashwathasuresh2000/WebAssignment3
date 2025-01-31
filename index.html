@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Student Data Management</h1>
+        <h2 id="name-nuid"></h2>
+    </header>
+
+    <main id="content" class="hidden">
+        <table id="student-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Student ID</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Student rows are added dynamically -->
+            </tbody>
+        </table>
+
+        <button id="submit-btn" disabled>Submit</button>
+        <button id="add-student">Add New Student</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
